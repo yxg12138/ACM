@@ -1,0 +1,11 @@
+﻿生成启动时间为 2016/9/12 20:03:20。
+     1>项目“D:\VS2013_file\算法入门经典（紫书）\ch7\UVa524\UVa524.vcxproj”在节点 2 上(ClCompile 个目标)。
+     1>ClCompile:
+         E:\软件\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>d:\vs2013_file\算法入门经典（紫书）\ch7\uva524\源.cpp(9): error C2143: 语法错误 : 缺少“;”(在“for”的前面)
+     1>已完成生成项目“D:\VS2013_file\算法入门经典（紫书）\ch7\UVa524\UVa524.vcxproj”(ClCompile 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.09
