@@ -11,26 +11,24 @@ void solve(){
 	int a = 0,b = N-1,cnt = 0;
 
 	while(a<=b){
-		bool left = false;
+		bool left = true;
 		for(int i=0; a+i<=b; i++){
-			if(S[a+i] < S[b-i]){
+			if(S[a+i] < S[b-i]) {
 				left = true;
-				cnt++;
 				break;
 			}
-			else if(S[a+i] > S[b-i]){
+			else if(S[a+i] > S[b-i]) {
 				left = false;
-				cnt++;
 				break;
 			}
 		}
 
 		if(left) putchar(S[a++]);
 		else putchar(S[b--]);
+		cnt++;
 		if(cnt % 80 == 0)  
         puts("");
 	}
-	puts("");
 
 }
 
